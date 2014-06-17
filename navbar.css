@@ -1,0 +1,24 @@
+nav {
+  display: block;
+  background: #B10DC9;
+  padding: 0 5%; }
+  @media (max-width: 700px) {
+    nav {
+      padding: 0; } }
+  nav a {
+    display: inline-block;
+    color: #FFFFFF;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    padding: 1em 2%;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 100; }
+    @media (max-width: 700px) {
+      nav a {
+        display: block; } }
+    nav a:hover {
+      background: #39CCCC;
+      color: #111111; }

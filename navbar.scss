@@ -1,0 +1,38 @@
+// Vairables
+$bg: #B10DC9; // Background
+$c: #FFFFFF; // Color
+$h-bg: #39CCCC; // Hover Background
+$h-c: #111111; // Hover Color
+
+// Navbar Style
+
+nav {
+  display: block;
+  background: $bg;
+  padding: 0 5%;
+  @media (max-width:700px) {
+    padding: 0;
+  }
+  a {
+    display: inline-block;
+    color: $c;
+    transition: 1s all;
+    padding: 1em 2%;
+    text: {
+      decoration: none;
+      transform: lowercase;
+    }
+    font: {
+      size: 1.5em;
+      family: sans-serif;
+      weight: 100;
+    }
+    @media (max-width:700px) {
+      display: block;
+    }
+    &:hover {
+      background: $h-bg;
+      color: $h-c;
+    }
+  }
+}
